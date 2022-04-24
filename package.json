@@ -1,0 +1,21 @@
+{
+  "name": "sandbox",
+  "version": "0.0.1",
+  "description": "where things are tested",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "nodemon": "./node_modules/nodemon/bin/nodemon.js",
+    "debug": "node --inspect"
+  },
+  "author": "Banane Alexandre",
+  "license": "ISC",
+  "dependencies": {
+    "bulma": "^0.9.1",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
